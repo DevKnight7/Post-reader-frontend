@@ -1,0 +1,28 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #2f3542;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .text {
+    margin-top: 10px;
+    color: white;
+    font-family: Quicksand, sans-serif;
+    display: flex;
+    align-items: center;
+    .link {
+      margin-left: 5px;
+      color: #7bed9f;
+      cursor: pointer;
+      .icon {
+        margin-right: 5px;
+        font-size: 20px;
+      }
+    }
+  }
+  .spacer {
+    margin-bottom: 100px;
+  }
+}
